@@ -1,0 +1,15 @@
+ _____________________________________________________________________________
+   IP            At MAC Address     Count     Len  MAC Vendor / Hostname      
+ -----------------------------------------------------------------------------
+ 10.49.82.1      00:0b:86:6d:a2:18      1      60  Aruba Networks
+ 10.49.82.27     3c:a9:f4:4d:5c:60      1      60  Intel Corporate
+ 10.49.82.68     c8:69:cd:98:c7:26      1      60  Unknown vendor
+ 0.0.0.0         e0:c7:67:42:43:a5      1      60  Unknown vendor
+ 10.49.82.216    e0:c7:67:42:43:a5      1      60  Unknown vendor
+ 10.49.82.127    90:b6:86:d3:8d:9c      1      60  Murata Manufacturing Co., Ltd.
+ 10.49.82.145    00:d0:2d:2a:ca:89      1      60  ADEMCO
+ 10.49.82.175    e0:98:61:74:19:a1      1      60  Unknown vendor
+ 10.49.82.180    e4:98:d6:99:f2:5e      1      60  Apple, Inc
+ 0.0.0.0         f0:d1:a9:1d:13:17      1      60  Apple
+ 10.49.82.237    f0:d1:a9:1d:13:17      1      60  Apple
+ 10.49.82.133    3c:a9:f4:4f:42:d4      1      60  Intel Corporate

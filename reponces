@@ -1,0 +1,38 @@
+2/ a)
+
+sudo apt-get install openssh-server
+sudo gedit /etc/ssh/sshd_config
+	#Port 22
+	Port 49876
+sudo /etc/init.d/ssh restart
+
+
+sudo iptables -F 		//clear rules
+sudo iptables -X 		//clear rules
+
+sudo iptables -t filter -A INPUT -p TCP --dport 49876 -j ACCEPT
+sudo iptables -t filter -A OUTPUT -p TCP --sport 49876 -j ACCEPT
+sudo iptables -t filter -A OUTPUT -j DROP
+sudo iptables -t filter -A INPUT -j DROP
+
+
+sudo iptables -L
+	Chain INPUT (policy ACCEPT)
+	target     prot opt source               destination         
+	ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:49876
+	DROP       all  --  anywhere             anywhere            
+
+	Chain FORWARD (policy ACCEPT)
+	target     prot opt source               destination         
+
+	Chain OUTPUT (policy ACCEPT)
+	target     prot opt source               destination         
+	ACCEPT     tcp  --  anywhere             anywhere             tcp spt:49876
+	DROP       all  --  anywhere             anywhere            
+
+
+================================================
+2/b)
+sudo gedit /etc/ssh/sshd_config
+	X11Forwarding Yes
+client: ssh -p 49876 -X host@ip
