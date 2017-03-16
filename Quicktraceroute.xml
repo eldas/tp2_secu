@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?><nmaprun start="1489611816" profile_name="Quick traceroute" xmloutputversion="1.04" scanner="nmap" version="7.40" startstr="Wed Mar 15 17:03:36 2017" args="nmap -sn --traceroute 10.49.82.0/24"><verbose level="0"></verbose><debugging level="0"></debugging><output type="interactive">
+Starting Nmap 7.40 ( https://nmap.org ) at 2017-03-15 17:03 EDT
+Nmap scan report for 10.49.82.1
+Host is up (0.047s latency).
+MAC Address: 00:0B:86:6D:A2:18 (Aruba Networks)
+
+TRACEROUTE
+HOP RTT      ADDRESS
+1   47.36 ms 10.49.82.1
+
+Nmap scan report for 10.49.82.68
+Host is up (0.18s latency).
+MAC Address: C8:69:CD:98:C7:26 (Apple)
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   175.93 ms 10.49.82.68
+
+Nmap scan report for 10.49.82.118
+Host is up (0.14s latency).
+MAC Address: D0:22:BE:36:07:88 (Samsung Electro-mechanics(thailand))
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   137.23 ms 10.49.82.118
+
+Nmap scan report for 10.49.82.129
+Host is up (0.0012s latency).
+MAC Address: 3C:A9:F4:4D:5C:60 (Intel Corporate)
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   1.24 ms 10.49.82.129
+
+Nmap scan report for 10.49.82.133
+Host is up (0.14s latency).
+MAC Address: 3C:A9:F4:4F:42:D4 (Intel Corporate)
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   136.93 ms 10.49.82.133
+
+Nmap scan report for 10.49.82.150
+Host is up (0.11s latency).
+MAC Address: 00:D0:2D:2A:CA:89 (Ademco)
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   105.27 ms 10.49.82.150
+
+Nmap scan report for 10.49.82.168
+Host is up (0.15s latency).
+MAC Address: D8:C4:E9:62:F7:B3 (Samsung Electronics)
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   148.17 ms 10.49.82.168
+
+Nmap scan report for 10.49.82.178
+Host is up (0.077s latency).
+MAC Address: 3C:A9:F4:4F:42:D4 (Intel Corporate)
+
+TRACEROUTE
+HOP RTT      ADDRESS
+1   76.72 ms 10.49.82.178
+
+Nmap scan report for 10.49.82.240
+Host is up (0.15s latency).
+MAC Address: B4:4B:D2:65:A9:80 (Apple)
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   148.17 ms 10.49.82.240
+
+Nmap scan report for 10.49.82.27
+Host is up.
+
+Nmap done: 256 IP addresses (10 hosts up) scanned in 3.99 seconds
+</output><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.49.82.1"></address><address addrtype="mac" vendor="Aruba Networks" addr="00:0B:86:6D:A2:18"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto=""><hop rtt="47.36" host="" ipaddr="10.49.82.1" ttl="1"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.49.82.68"></address><address addrtype="mac" vendor="Apple" addr="C8:69:CD:98:C7:26"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto=""><hop rtt="175.93" host="" ipaddr="10.49.82.68" ttl="1"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.49.82.118"></address><address addrtype="mac" vendor="Samsung Electro-mechanics(thailand)" addr="D0:22:BE:36:07:88"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto=""><hop rtt="137.23" host="" ipaddr="10.49.82.118" ttl="1"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.49.82.129"></address><address addrtype="mac" vendor="Intel Corporate" addr="3C:A9:F4:4D:5C:60"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto=""><hop rtt="1.24" host="" ipaddr="10.49.82.129" ttl="1"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.49.82.133"></address><address addrtype="mac" vendor="Intel Corporate" addr="3C:A9:F4:4F:42:D4"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto=""><hop rtt="136.93" host="" ipaddr="10.49.82.133" ttl="1"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.49.82.150"></address><address addrtype="mac" vendor="Ademco" addr="00:D0:2D:2A:CA:89"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto=""><hop rtt="105.27" host="" ipaddr="10.49.82.150" ttl="1"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.49.82.168"></address><address addrtype="mac" vendor="Samsung Electronics" addr="D8:C4:E9:62:F7:B3"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto=""><hop rtt="148.17" host="" ipaddr="10.49.82.168" ttl="1"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.49.82.178"></address><address addrtype="mac" vendor="Intel Corporate" addr="3C:A9:F4:4F:42:D4"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto=""><hop rtt="76.72" host="" ipaddr="10.49.82.178" ttl="1"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.49.82.240"></address><address addrtype="mac" vendor="Apple" addr="B4:4B:D2:65:A9:80"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto=""><hop rtt="148.17" host="" ipaddr="10.49.82.240" ttl="1"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.49.82.27"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><runstats><finished timestr="Wed Mar 15 17:03:39 2017" time="1489611819"></finished><hosts down="246" total="256" up="10"></hosts></runstats></nmaprun>

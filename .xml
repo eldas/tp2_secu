@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?><nmaprun start="1489611712" profile_name="Ping scan" xmloutputversion="1.04" scanner="nmap" version="7.40" startstr="Wed Mar 15 17:01:52 2017" args="nmap -sn 10.49.82.0/24"><verbose level="0"></verbose><debugging level="0"></debugging><output type="interactive">
+Starting Nmap 7.40 ( https://nmap.org ) at 2017-03-15 17:01 EDT
+Nmap scan report for 10.49.82.1
+Host is up (0.039s latency).
+MAC Address: 00:0B:86:6D:A2:18 (Aruba Networks)
+Nmap scan report for 10.49.82.68
+Host is up (0.11s latency).
+MAC Address: C8:69:CD:98:C7:26 (Apple)
+Nmap scan report for 10.49.82.118
+Host is up (0.10s latency).
+MAC Address: D0:22:BE:36:07:88 (Samsung Electro-mechanics(thailand))
+Nmap scan report for 10.49.82.129
+Host is up (0.0015s latency).
+MAC Address: 3C:A9:F4:4D:5C:60 (Intel Corporate)
+Nmap scan report for 10.49.82.133
+Host is up (0.10s latency).
+MAC Address: 3C:A9:F4:4F:42:D4 (Intel Corporate)
+Nmap scan report for 10.49.82.150
+Host is up (0.18s latency).
+MAC Address: 00:D0:2D:2A:CA:89 (Ademco)
+Nmap scan report for 10.49.82.168
+Host is up (0.12s latency).
+MAC Address: D8:C4:E9:62:F7:B3 (Samsung Electronics)
+Nmap scan report for 10.49.82.175
+Host is up (0.098s latency).
+MAC Address: E0:98:61:74:19:A1 (Motorola Mobility, a Lenovo Company)
+Nmap scan report for 10.49.82.178
+Host is up (0.13s latency).
+MAC Address: 3C:A9:F4:4F:42:D4 (Intel Corporate)
+Nmap scan report for 10.49.82.240
+Host is up (0.16s latency).
+MAC Address: B4:4B:D2:65:A9:80 (Apple)
+Nmap scan report for 10.49.82.27
+Host is up.
+Nmap done: 256 IP addresses (11 hosts up) scanned in 8.08 seconds
+</output><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.49.82.1"></address><address addrtype="mac" vendor="Aruba Networks" addr="00:0B:86:6D:A2:18"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.49.82.68"></address><address addrtype="mac" vendor="Apple" addr="C8:69:CD:98:C7:26"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.49.82.118"></address><address addrtype="mac" vendor="Samsung Electro-mechanics(thailand)" addr="D0:22:BE:36:07:88"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.49.82.129"></address><address addrtype="mac" vendor="Intel Corporate" addr="3C:A9:F4:4D:5C:60"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.49.82.133"></address><address addrtype="mac" vendor="Intel Corporate" addr="3C:A9:F4:4F:42:D4"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.49.82.150"></address><address addrtype="mac" vendor="Ademco" addr="00:D0:2D:2A:CA:89"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.49.82.168"></address><address addrtype="mac" vendor="Samsung Electronics" addr="D8:C4:E9:62:F7:B3"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.49.82.175"></address><address addrtype="mac" vendor="Motorola Mobility, a Lenovo Company" addr="E0:98:61:74:19:A1"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.49.82.178"></address><address addrtype="mac" vendor="Intel Corporate" addr="3C:A9:F4:4F:42:D4"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.49.82.240"></address><address addrtype="mac" vendor="Apple" addr="B4:4B:D2:65:A9:80"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.49.82.27"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><runstats><finished timestr="Wed Mar 15 17:02:01 2017" time="1489611721"></finished><hosts down="245" total="256" up="11"></hosts></runstats></nmaprun>
